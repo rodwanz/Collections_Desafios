@@ -11,9 +11,11 @@ public class ElementoNaLista {
         naLista.add("Banana");
         naLista.add("Uva");
 
+
 //        boolean presente = naLista.contains("Maçã");
-//
-//        System.out.println("A maçã consta na lista? " + presente);
+//        System.out.println("A maçã consta na lista? Sim! " + presente);
+//        int contem = naLista.indexOf("Banana");
+//        System.out.println("Tabém tem Banana! " + contem);
 
         if (naLista.contains("Maçã")){
             System.out.println("Tem maçã na lista de frutas!");
