@@ -10,8 +10,8 @@ public class ConjuntoEmOrdem {
         ordem.adicionandoNumero(9);
 
         System.out.println(ordem.mostrandoNumeros());
-        System.out.println(ordem.contem(7) + " ,contém no conjunto");
-        System.out.println( ordem.constaNumero());
+        System.out.print(ordem.contem(7) + " ,contém no conjunto ");
+        System.out.println( "o número esperado: " + ordem.constaNumero());
 
 
     }

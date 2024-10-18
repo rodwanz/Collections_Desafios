@@ -21,11 +21,11 @@ public class EmOrdem {
         }
         return contemConjunto;
     }
-    public Numeros constaNumero(){
-        Numeros estaNaLista = null;
+    public int constaNumero(){
+        int estaNaLista = 7;
         for (Numeros num : comjuntoNum){
             if(comjuntoNum.contains(num)){
-                System.out.println("o número esperado " + estaNaLista);
+                //System.out.println("o número esperado " + estaNaLista);
             }
         }
         return estaNaLista;
